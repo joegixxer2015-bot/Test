@@ -5,11 +5,13 @@
 #define I2S_BCK_PIN   15
 #define I2S_LRCK_PIN  16
 #define I2S_DATA1_PIN 17
+#define I2S_DATA1_PIN 18
+
 
 Audio audio;
 
-const char* ssid     = "YOUR_WIFI_NAME";     // 👈 ใส่ชื่อ Wi-Fi ของคุณ
-const char* password = "YOUR_WIFI_PASSWORD"; // 👈 ใส่รหัสผ่าน Wi-Fi
+const char* ssid     = "Iphone";     // 👈 ใส่ชื่อ Wi-Fi ของคุณ
+const char* password = "12345678"; // 👈 ใส่รหัสผ่าน Wi-Fi
 
 void setup() {
   Serial.begin(115200);
